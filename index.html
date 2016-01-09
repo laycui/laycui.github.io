@@ -1,1 +1,51 @@
 Hello World
+<html>
+<head>
+<script src="https://www.google.com/adsense/search/ads.js"></script>
+<script>
+var pageOptions = {
+'pubId' : 'google-csa-test',
+'query' : 'flowers',
+'adtest' : 'on',
+'adsafe' : 'low',
+'linkTarget' : '_blank',
+'verticalSpacing': 12,
+'siteLinks': true,
+'clicktrackUrl' : 'http://www.jeffscudder.com/blank'
+}
+var adblock1 = {
+'container' : 'adblock1',
+'number' : 4,
+'width' : 'auto',
+'lines' : 2,
+};
+var adblock2 = {
+'container' : 'adblock2',
+'number' : 4,
+'width' : '500px'
+};
+var adblock3 = {
+'container' : 'adblock3',
+'number' : 4,
+'width' : 'auto',
+'fontFamily' : 'times new roman',
+'fontSizeTitle' : '14px', // font sizes can go from 8px -> 14px
+'fontSizeDescription' : '8px',
+'fontSizeDomainLink' : '12px'
+};
+var adblock4 = {
+'container' : 'adblock4',
+'number' : 4,
+'width' : 'auto',
+'promoted' : true
+};
+</script>
+</head>
+<body>
+<div id="adblock1"></div>
+<div id="adblock2"></div>
+<div id="adblock3"></div>
+<div id="adblock4"></div>
+<script>new google.ads.search.Ads(pageOptions, adblock1, adblock2, adblock3, adblock4);</script>
+</body>
+</html>

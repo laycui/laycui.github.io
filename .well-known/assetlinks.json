@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.leicui.mininetflix",
+    "sha256_cert_fingerprints":
+    ["BD:D2:DF:DD:DF:94:C7:44:F6:CE:4A:C3:4A:53:5B:6C:81:64:5E:61:E8:C9:28:86:28:D8:41:FD:4C:37:D9:4F"]
+  }
+}]
